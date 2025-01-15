@@ -68,8 +68,7 @@ MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', True)) # Set True or F
 # If Multiple Database Is True Then Fill All Three Below Database Uri Else You Will Get Error.
 O_DB_URI = environ.get('O_DB_URI', "")   # This Db Is For Other Data Store
 F_DB_URI = environ.get('F_DB_URI', "")   # This Db Is For File Data Store
-S_DB_URI = environ.get('S_DB_URI', "mongodb+srv://xaxox91682:aEjBmq0ui5cvHe0S@cluster0.3xzsr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-")   # This Db is for File Data Store When First Db Is Going To Be Full.
+S_DB_URI = environ.get('S_DB_URI', "mongodb+srv://xaxox91682:aEjBmq0ui5cvHe0S@cluster0.3xzsr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db is for File Data Store When First Db Is Going To Be Full.
 
 
 # Premium And Referal Settings
@@ -127,7 +126,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://modijiurl.com')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modijiurl.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '544d4364207ca0766dc32dd965a8aa61856843fd')
 TUTORIAL = environ.get('TUTORIAL', 'https://telegram.me/sdmoviespoint_club') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
